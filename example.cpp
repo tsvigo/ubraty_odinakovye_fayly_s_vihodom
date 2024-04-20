@@ -118,7 +118,7 @@ QString name_of_file="/home/viktor/my_projects_qt_2/kartinki_iz_shriftov/papka-f
     if (!file2.open(QIODevice::WriteOnly | QIODevice::Text)) {;;}
      //   return;
     QTextStream out2(&file2);
-    out2 << x;//"The magic number is: " << 49 << "\n";
+    out2 << y;//"The magic number is: " << 49 << "\n";
      file2.close(); 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
